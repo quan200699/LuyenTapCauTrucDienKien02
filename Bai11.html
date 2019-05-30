@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 11</title>
+</head>
+<body>
+<script>
+    var thunhap = eval(prompt("Thu nhap ca nhan:"));
+    var tienthue;
+    if(thunhap<=5000000)
+    {
+        tienthue = thunhap*0.05;
+    }
+    else if(thunhap>5000000&&thunhap<=10000000)
+    {
+        tienthue = thunhap*0.1;
+    }
+    else if(thunhap>10000000&&thunhap<=18000000)
+    {
+        tienthue = thunhap*0.15;
+    }
+    else if(thunhap>18000000&&thunhap<=32000000)
+    {
+        tienthue = thunhap*0.2;
+    }
+    else if(thunhap>32000000&&thunhap<=52000000)
+    {
+        tienthue = thunhap*0.25;
+    }
+    else if(thunhap>52000000&&thunhap<=80000000)
+    {
+        tienthue = thunhap*0.3;
+    }
+    else
+    {
+        tienthue = thunhap*0.35;
+    }
+    alert("Tien thue:"+tienthue);
+</script>
+</body>
+</html>

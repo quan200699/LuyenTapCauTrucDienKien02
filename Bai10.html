@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 10</title>
+</head>
+<body>
+<script>
+    var sodien = eval(prompt("Nhap so dien:"));
+    var money;
+    if(sodien<=50)
+    {
+        money = sodien*1.678;
+    }
+    else if(sodien>50&&sodien<=100)
+    {
+        money = sodien*1.734;
+    }
+    else if(sodien>100&&sodien<=200)
+    {
+        money = sodien*2.014;
+    }
+    else if(sodien>200&&sodien<=300)
+    {
+        money = sodien*2.536;
+    }
+    else if(sodien>300&&sodien<=400)
+    {
+        money = sodien*2.834;
+    }
+    else
+    {
+        money = sodien*2.927;
+    }
+    alert("Tien dien:"+money);
+</script>
+</body>
+</html>
